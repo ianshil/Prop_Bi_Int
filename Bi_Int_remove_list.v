@@ -1,4 +1,4 @@
-Require Import Prop3_Bi_Int_calcs.
+Require Import Prop_Bi_Int_calcs.
 Require Import List.
 Export ListNotations.
 

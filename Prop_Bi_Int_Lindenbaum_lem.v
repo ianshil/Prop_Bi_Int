@@ -17,12 +17,12 @@ Require Import Coq.Logic.Description.
 Require Import Coq.Logic.FunctionalExtensionality.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
-Require Import Prop3_Bi_Int_logics.
-Require Import Prop3_Bi_Int_extens_interactions.
-Require Import Prop3_wBi_Int_meta_interactions.
-Require Import Prop3_sBi_Int_meta_interactions.
-Require Import Bi_Int3_remove_list.
+Require Import Prop_Bi_Int_calcs.
+Require Import Prop_Bi_Int_logics.
+Require Import Prop_Bi_Int_extens_interactions.
+Require Import Prop_wBi_Int_meta_interactions.
+Require Import Prop_sBi_Int_meta_interactions.
+Require Import Bi_Int_remove_list.
 Require Import strong_induction.
 
 Fixpoint mult_disj (n : nat) (A : BPropF V) : BPropF V :=

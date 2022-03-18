@@ -1,11 +1,10 @@
 Require Import List.
 Export ListNotations.
 
-Require Import genT gen.
 Require Import PeanoNat.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
+Require Import Prop_Bi_Int_calcs.
 
 Lemma subst_Ax : forall A f, (BIAxioms A) -> (BIAxioms (subst f A)).
 Proof.

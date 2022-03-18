@@ -1,7 +1,6 @@
 Require Import List.
 Export ListNotations.
 
-Require Import genT gen.
 Require Import PeanoNat.
 
 Require Import Ensembles.
@@ -18,6 +17,8 @@ Notation "x :: l" := (cons x l)
                      (at level 60, right associativity).
 Notation "[ ]" := nil.
 Notation "[ x ; .. ; y ]" := (cons x .. (cons y nil) ..).
+
+Definition rls W := list W -> W -> Prop.
 
 (* In this file we define two Hilbert calculi based on sets for the propositonal
    bi-intuitionistic logics wBIL and sBIL.  *)

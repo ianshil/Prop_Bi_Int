@@ -3,21 +3,19 @@ Require Import Classical.
 
 Require Import List.
 Export ListNotations.
-
-Require Import genT gen.
 Require Import PeanoNat.
 Require Import Lia.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
-Require Import Prop3_Bi_Int_logics.
-Require Import Prop3_Bi_Int_extens_interactions.
-Require Import Prop3_wBi_Int_meta_interactions.
-Require Import Prop3_sBi_Int_meta_interactions.
-Require Import Prop3_Bi_Int_Kripke_sem.
-Require Import Prop3_Bi_Int_bisimulation.
-Require Import Prop3_Bi_Int_Lindenbaum_lem.
-Require Import Prop3_Bi_Int_wcompleteness.
+Require Import Prop_Bi_Int_calcs.
+Require Import Prop_Bi_Int_logics.
+Require Import Prop_Bi_Int_extens_interactions.
+Require Import Prop_wBi_Int_meta_interactions.
+Require Import Prop_sBi_Int_meta_interactions.
+Require Import Prop_Bi_Int_Kripke_sem.
+Require Import Prop_Bi_Int_bisimulation.
+Require Import Prop_Bi_Int_Lindenbaum_lem.
+Require Import Prop_Bi_Int_wcompleteness.
 
 Fixpoint n_reachable {W : Type} (R : W -> W -> Prop) (n: nat) (w v : W) : Prop :=
   match n with

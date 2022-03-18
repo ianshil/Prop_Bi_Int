@@ -1,12 +1,11 @@
 Require Import List.
 Export ListNotations.
 
-Require Import genT gen.
 Require Import PeanoNat.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
-Require Import Prop3_Bi_Int_logics.
+Require Import Prop_Bi_Int_calcs.
+Require Import Prop_Bi_Int_logics.
 
 Lemma extens_diff_sBIC : forall (p : V),
     (sBIC_rules (Singleton _ (# p), Neg (wNeg (# p)))).

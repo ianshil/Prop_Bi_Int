@@ -9,7 +9,7 @@ Require Import PeanoNat.
 Require Import Lia.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
+Require Import Prop_Bi_Int_calcs.
 
 Definition val_persist_R (W : Type) (val : W -> V -> Prop) R : Prop :=
   forall (w v : W), R w v -> (forall p, val w p -> val v p).

@@ -1,15 +1,14 @@
 Require Import List.
 Export ListNotations.
 
-Require Import genT gen.
 Require Import PeanoNat.
 Require Import Lia.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
-Require Import Prop3_Bi_Int_logics.
-Require Import Prop3_Bi_Int_extens_interactions.
-Require Import Prop3_wBi_Int_meta_interactions.
+Require Import Prop_Bi_Int_calcs.
+Require Import Prop_Bi_Int_logics.
+Require Import Prop_Bi_Int_extens_interactions.
+Require Import Prop_wBi_Int_meta_interactions.
 
 Lemma sThm_irrel : forall A B Γ, sBIC_rules (Γ, A → (B → A)).
 Proof.

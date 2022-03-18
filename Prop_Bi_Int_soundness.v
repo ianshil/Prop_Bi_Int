@@ -1,13 +1,11 @@
 Require Import List.
 Export ListNotations.
-
-Require Import genT gen.
 Require Import PeanoNat.
 Require Import Lia.
 
 Require Import Ensembles.
-Require Import Prop3_Bi_Int_calcs.
-Require Import Prop3_Bi_Int_Kripke_sem.
+Require Import Prop_Bi_Int_calcs.
+Require Import Prop_Bi_Int_Kripke_sem.
 
 
 Lemma Ax_valid : forall A, BIAxioms A ->
